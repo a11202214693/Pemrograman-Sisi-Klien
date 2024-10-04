@@ -1,0 +1,11 @@
+@mixin shadow($color) {
+    box-shadow: 15px 15px 40px $color;
+  }
+
+  .portfolio .card {
+    @include shadow(rgba(0, 0, 0, 0.15));
+  }
+
+  .team .card {
+    @include shadow(rgba(0, 0, 0, 0.15));
+  }
